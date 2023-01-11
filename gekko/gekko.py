@@ -46,6 +46,8 @@ def _try(o):
 class EquationObj(object):
     def __init__(self, value):
         self.value = str(value)
+    def __repr__(self):
+        return str(self)
     def __str__(self):
         return self.value
 
