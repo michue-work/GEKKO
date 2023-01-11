@@ -72,7 +72,7 @@ class GKVariable(GK_Operators):
         return GK_Operators('$' + self.name)
 
     def __repr__(self):
-        return str(self.value)
+        return str(self.name)
     
     def __len__(self):
         return len(self.value)
