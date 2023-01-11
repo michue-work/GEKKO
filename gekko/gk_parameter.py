@@ -69,7 +69,7 @@ class GKParameter(GK_Operators):
         
         
     def __repr__(self):
-        return str(self.value) #'%s = %f' % (self.name, self.value)
+        return str(self.name)
 
     def __len__(self):
         return len(self.value)
