@@ -44,8 +44,8 @@ Param_output_options = []
 
 
 FV_input_options = Param_input_options+['CRITICAL', 'DMAX', 'DMAXHI', 
-                                        'DMAXLO', 'FSTATUS', 'LOWER','MEAS', 
-                                        'PSTATUS','STATUS', 'UPPER', 'VDVL', 
+                                        'DMAXLO', 'FSTATUS', 'MEAS', 
+                                        'PSTATUS','STATUS', 'VDVL', 
                                         'VLACTION', 'VLHI', 'VLLO']
 FV_inout_options = Param_inout_options+[]
 FV_output_options = Param_output_options+['LSTVAL', 'NEWVAL']
